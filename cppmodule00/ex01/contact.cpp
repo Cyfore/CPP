@@ -13,17 +13,9 @@ std::string	Contact::getNickname() {return (this-> _nick);}
 std::string	Contact::getPhoneNum() {return (this-> _phone_num);}
 std::string	Contact::getSecret() {return (this->_darkestsecret);}
 
-Contact::Contact()
-{
-	//std::cout << "Contact Call constructor\n";
-	return ;
-}
+Contact::Contact(){}
 
-Contact::~Contact()
-{
-	//std::cout << "Contact Call destructor\n";
-	return ;
-}
+Contact::~Contact(){}
 
 void Contact::add_contact()
 {

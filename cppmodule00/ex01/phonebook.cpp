@@ -3,14 +3,10 @@
 
 Phonebook::Phonebook()
 {
-    //std::cout << "Phonebook Call constructor\n";
     this->_index = 0;
 }
 
-Phonebook::~Phonebook()
-{
-    //std::cout << "Phonebook Call destructor\n";
-}
+Phonebook::~Phonebook(){}
 
 int Phonebook::get_count()
 {

@@ -10,12 +10,11 @@ int main(int ac, char **av)
         std::cout << "* LOUD AND UNBEARABLE FEEDBACK NOISE *";
     while (av[++i])
     {
-        for (int j = 0; j < strlen(av[i]); j++)
+        for (int j = 0; av[i][j]; j++)
         {
             c = toupper(av[i][j]);
             std::cout << c;
         }
     }
     std::cout << std::endl;
-    return (0);
 }
